@@ -1,5 +1,8 @@
 It installs Virtuoso 8.0.
+
 I use Centos 6 due that this version needs glibc 2.12
+
+Use this command to generate your docker container
 
 docker run -it --name virtuoso8 -p8890:8890 -v ${pwd}:/data -d asanchez75/virtuoso8
 
