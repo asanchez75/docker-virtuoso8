@@ -2,7 +2,7 @@ It installs Virtuoso 8.0.
 
 docker run -it --name virtuoso8 -p8890:8890 -v ${pwd}:/data -d asanchez75/virtuoso8
 
-Next, wait 10 seconds until having all necessary files inside /data and go to
+Next, wait 10 seconds until having all necessary files inside ${pwd} and go to
 
 http://localhost:8890/install
 
